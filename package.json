@@ -1,0 +1,16 @@
+{
+  "author": "Bocoup",
+  "name": "git-visualizer",
+  "description": "A client-side branch-focused git repository visualization",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "ln -s `pwd`/node_modules/gitteh/build/Release node_modules/gitteh/build/default"
+  },
+  "engines": {
+    "node": "~0.8"
+  },
+  "dependencies": {
+	"gitteh": "~0.1.0",
+	"lodash": "~1.0.0"
+  }
+}
